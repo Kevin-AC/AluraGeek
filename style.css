@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #8c0375;
+    --secondary-color: #c004d9;
+    --accent-color: #9303a6;
+    --header-color: #5d04d9;
+    --formulario: #03318c;
+}
+
+body {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--header-color);
+    color: white;
+    padding: 10px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+.header__container{
+    width: 330px;
+    display: flex;
+    align-items: center;
+
+}
