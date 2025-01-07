@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -15,8 +15,49 @@
             <img src="./Imagenes/image 1.svg" alt="">
             <h1>AluraGeek</h1>
         </div>
-        
     </header>
+    <main class="container">
+        <section class="main__container">
+            <h2>Mis productos:</h2>
+            
+            <div class="productos">
+                <div class="producto" data-producto>
+                    <img src="" alt="">
+                    <h3>Producto 1</h3>
+                    <p>Descripción del producto 1</p>
+                    <p>Precio: $100</p>
+                    <button class="button_trash"></button>
+                </div>                
+            </div>
+        </section>
+
+        <section class="formulario">
+            <h2>Agregar Productos:</h2>
+            <form action="submit">
+                <input type="text" placeholder="Nombre...">
+                <input type="text" placeholder="Precio...">
+                <input type="text" placeholder="Imagen...">
+                <div class="formulario__botones">
+                    <button class="formulario__botones__enviar">Enviar</button>
+                    <button class="formulario__botones__limpiar">Limpiar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer__container">
+            <div class="header__container">
+            <img src="./Imagenes/image 1.svg" alt="">
+            <h1>AluraGeek</h1>
+        </div>
+        <div class="footer__info">
+            <p>2025 &copy; DESAROLLADO POR KEVIN ARGUMEDO</p>
+            <p>ALURA LATAM - 2025</p>
+        </div>
+        
+    </footer>
+    <script src="./js/main.js"></script>
     
 </body>
 </html>
