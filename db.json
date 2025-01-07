@@ -4,56 +4,55 @@
       "id": 1,
       "nombre": "Camiseta deportiva",
       "precio": 19.99,
-      "imagen": "https://unsplash.com/es/fotos/hombre-con-camisetas-blancas-de-cuello-redondo-WWesmHEgXDs"
+      "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 2,
       "nombre": "Zapatillas running",
       "precio": 49.99,
-      "imagen": "https://unsplash.com/es/fotos/persona-sosteniendo-zapatillas-deportivas-nike-grises-y-blancas-trdk1R0F3tg"
+      "imagen": "https://images.unsplash.com/photo-1579446650032-86effeeb3389?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 3,
       "nombre": "Mochila escolar",
       "precio": 25.99,
-      "imagen": "https://unsplash.com/es/fotos/una-mochila-tenis-y-una-manzana-en-la-cama-EG7Z3r0PEmo"
+      "imagen": "https://plus.unsplash.com/premium_photo-1723649902734-60ec42167731?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 4,
       "nombre": "Camiseta deportiva",
       "precio": 19.99,
-      "imagen": "https://unsplash.com/es/fotos/hombre-con-camisetas-blancas-de-cuello-redondo-WWesmHEgXDs"
+      "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 5,
       "nombre": "Zapatillas running",
       "precio": 49.99,
-      "imagen": "https://unsplash.com/es/fotos/persona-sosteniendo-zapatillas-deportivas-nike-grises-y-blancas-trdk1R0F3tg"
+      "imagen": "https://images.unsplash.com/photo-1579446650032-86effeeb3389?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 6,
       "nombre": "Mochila escolar",
       "precio": 25.99,
-      "imagen": "https://unsplash.com/es/fotos/una-mochila-tenis-y-una-manzana-en-la-cama-EG7Z3r0PEmo"
+      "imagen": "https://plus.unsplash.com/premium_photo-1723649902734-60ec42167731?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 7,
-     "nombre": "Camiseta deportiva",
+      "nombre": "Camiseta deportiva",
       "precio": 19.99,
-      "imagen": "https://unsplash.com/es/fotos/hombre-con-camisetas-blancas-de-cuello-redondo-WWesmHEgXDs"
+      "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 8,
       "nombre": "Zapatillas running",
       "precio": 49.99,
-      "imagen": "https://unsplash.com/es/fotos/persona-sosteniendo-zapatillas-deportivas-nike-grises-y-blancas-trdk1R0F3tg"
+      "imagen": "https://images.unsplash.com/photo-1579446650032-86effeeb3389?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     },
     {
       "id": 9,
-     "nombre": "Mochila escolar",
+      "nombre": "Mochila escolar",
       "precio": 25.99,
-      "imagen": "https://unsplash.com/es/fotos/una-mochila-tenis-y-una-manzana-en-la-cama-EG7Z3r0PEmo"
+      "imagen": "https://plus.unsplash.com/premium_photo-1723649902734-60ec42167731?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     }
-  
   ]
 }

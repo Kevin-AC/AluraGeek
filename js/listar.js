@@ -1,16 +1,28 @@
 import { ConexionAPI } from "./ConexionAPI.js";
 
-const producto = document.getElementById("[data-producto]");
+const contenedorProductos = document.getElementById("productos");
 
-export default function listarProductos(titulo, descripcion, precio) {
+export default function crearCard(nombre, precio,imagen) {
     const card = document.createElement("div");
     card.className = "producto";
-    card.innerHTML = `<img src="" alt="">
-                        <h3>${titulo}</h3>
-                        <img src="${imagen}"  alt="imagen producto"></img>
-                        <p>${descripcion}</p>
-                        <p>${precio}</p>
-                        <button class="button_trash"></button>`;
+    card.innerHTML = `
+                        <div class="producto__imagen"><img src="${imagen}"  alt="imagen producto"></img></div>
+                        <h3>${nombre}</h3>
+                        <div class= "producto__precio">
+                            <p>$${precio}</p>
+                            <button class="button_trash"></button>                       
+                        </div>` 
     return card;
 
     }
+
+async function listarProductos() {
+    const productos = await ConexionAPI.getProducts();
+    //console.log(productos)
+    productos.forEach(producto => {
+        const card = crearCard(producto.nombre,producto.precio,producto.imagen);
+        contenedorProductos.appendChild(card);
+    });
+    
+}
+listarProductos();
