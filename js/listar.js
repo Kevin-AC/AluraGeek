@@ -2,7 +2,7 @@ import { ConexionAPI } from "./ConexionAPI.js";
 
 const contenedorProductos = document.getElementById("productos");
 
-export default function crearCard(nombre, precio,imagen) {
+export default function crearCard(nombre, precio,imagen,id) {
     const card = document.createElement("div");
     card.className = "producto";
     card.innerHTML = `
@@ -10,7 +10,7 @@ export default function crearCard(nombre, precio,imagen) {
                         <h3>${nombre}</h3>
                         <div class= "producto__precio">
                             <p>$${precio}</p>
-                            <button class="button_trash"></button>                       
+                            <button class="button_trash" data-id=${id}></button>                       
                         </div>` 
     return card;
 
@@ -20,7 +20,7 @@ async function listarProductos() {
     const productos = await ConexionAPI.getProducts();
     //console.log(productos)
     productos.forEach(producto => {
-        const card = crearCard(producto.nombre,producto.precio,producto.imagen);
+        const card = crearCard(producto.nombre,producto.precio,producto.imagen,producto.id);
         contenedorProductos.appendChild(card);
     });
     

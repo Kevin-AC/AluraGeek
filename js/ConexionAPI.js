@@ -25,7 +25,16 @@ async function crearProducto(nombre,precio,imagen){
   }
   return data;
 }
+async function borrarProducto(id){
+  const response = await fetch(`${URL}/${id}`,{
+    method: "DELETE"
+  })
+  if(!response.ok){
+    throw new Error("No se pudo borrar el producto");
+  }
+  
+}
 
 export const ConexionAPI ={
-  getProducts,crearProducto
+  getProducts,crearProducto,borrarProducto
 }
