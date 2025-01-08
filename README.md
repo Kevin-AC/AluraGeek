@@ -12,12 +12,5 @@ ejecutar liver server para ver cambios en HTML
 
 
 
-## Installation
 
-Install my-project with npm
-
-```bash
-  npm install my-project
-  cd my-project
-```
     
