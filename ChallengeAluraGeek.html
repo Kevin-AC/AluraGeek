@@ -25,14 +25,14 @@
             </div>
         </section>
 
-        <section class="formulario">
+        <section class="formulario__container">
             <h2>Agregar Productos:</h2>
-            <form action="submit">
-                <input type="text" placeholder="Nombre...">
-                <input type="text" placeholder="Precio...">
-                <input type="text" placeholder="Imagen...">
+            <form id="formulario">
+                <input type="text" placeholder="Nombre..." data-nombre>
+                <input type="text" placeholder="Precio..." data-precio>
+                <input type="text" placeholder="Imagen..." data-imagen>
                 <div class="formulario__botones">
-                    <button class="formulario__botones__enviar">Enviar</button>
+                    <button class="formulario__botones__enviar" type="submit">Enviar</button>
                     <button class="formulario__botones__limpiar">Limpiar</button>
                 </div>
             </form>
@@ -54,6 +54,7 @@
     </footer>
     <script src="./js/ConexionAPI.js" type="module"></script>
     <script src="./js/listar.js" type="module"></script>
+    <script src="./js/InsertarProducto.js" type="module"></script>
     
 </body>
 </html>

@@ -103,17 +103,17 @@ header{
 }
 
 
-.formulario{
+.formulario__container{
    background-color: white;
    width: 372px;
 
 }
-.formulario h2{
+.formulario__container h2{
      padding-bottom: 20px;
      text-transform: uppercase;
 }
-.formulario input{
-    
+.formulario__container input{
+    outline: none;
     width: 100%;
     height: 50px;
     margin-bottom: 20px;

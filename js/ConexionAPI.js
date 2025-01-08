@@ -7,7 +7,25 @@ async function getProducts() {
   return data;
 }
 
+async function crearProducto(nombre,precio,imagen){
+  const response = await fetch(URL,{
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      nombre: nombre,
+      precio: precio,
+      imagen:imagen
+    })
+  })
+  const data = await response.json();
+  if(!response.ok){
+    throw new Error("No se pudo insertar el producto");
+  }
+  return data;
+}
 
 export const ConexionAPI ={
-  getProducts
+  getProducts,crearProducto
 }
