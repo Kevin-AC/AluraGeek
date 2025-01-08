@@ -50,6 +50,8 @@ header{
     box-shadow: -8px  10px rgba(0, 0, 0, 0.3);
     display: flex;
     max-width: 760px;
+    height:990px ;
+    overflow-y: auto;
     gap: 8px;
     justify-content: space-around;
     flex-wrap: wrap;

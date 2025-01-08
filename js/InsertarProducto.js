@@ -1,4 +1,4 @@
-;
+
 import { ConexionAPI } from "./ConexionAPI.js";
 const formulario = document.getElementById("formulario");
 
@@ -9,13 +9,20 @@ async function insertarProducto(event) {
     const precio = document.querySelector("[data-precio]").value;
     const imagen = document.querySelector("[data-imagen]").value;
 
-    try{
-        await ConexionAPI.crearProducto(nombre,precio,imagen);
-        alert("Producto insertado correctamente");
-        formulario.reset();
-    }catch(error){
-        alert("Ha ocurrido un error al insertar el producto");
+    if(nombre === "" || precio === "" || imagen === ""){
+        alert("Por favor llena todos los campos");
+
+    }else{
+        try {
+            await ConexionAPI.crearProducto(nombre, precio, imagen);
+            alert("Producto insertado correctamente");
+            formulario.reset();
+        } catch (error) {
+            alert("Ha ocurrido un error al insertar el producto");
+        }
     }
+
+   
 
 }
 
